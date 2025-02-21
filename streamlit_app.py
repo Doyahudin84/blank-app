@@ -7,7 +7,7 @@ import joblib
 
 st.image('aranademi.png', width=200)
 
-st.title("Machine Learning Tes Resiko Diabetes")
+st.title("Machine Learning, AI untuk Tes Resiko Diabetes")
 st.write(
     "dibuat dengan menggunakan data dari UCI. akurasinya baru mencapai 74%"
 )
