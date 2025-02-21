@@ -4,19 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import joblib
-st.markdown("""
-    <style>
-        .logo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 150px;
-        }
-    </style>
-    <div class="logo-container">
-        <img src="aranademi.png" width="200" alt="Logo"/>
-    </div>
-""", unsafe_allow_html=True)
+
+st.image('aranademi.png', width=200)
+
 st.title("Machine Learning" 
 "Tes Resiko Diabetes")
 st.write(
