@@ -4,8 +4,21 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import joblib
-
-st.title("Machine Learning Tes Resiko Diabetes")
+st.markdown("""
+    <style>
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+        }
+    </style>
+    <div class="logo-container">
+        <img src="aranademi.png" width="200" alt="Logo"/>
+    </div>
+""", unsafe_allow_html=True)
+st.title("Machine Learning" 
+"Tes Resiko Diabetes")
 st.write(
     "dibuat dengan menggunakan data dari UCI."
     "akurasinya baru mencapai 74%"
@@ -41,7 +54,7 @@ scaler = joblib.load('scaler.pkl')
 
 # UI dengan Streamlit
 def main():
-    st.title("AI Diagnosa Diabetes")
+  
     st.write("Masukkan data medis untuk mendiagnosis diabetes.")
 
     # Input dari pengguna
